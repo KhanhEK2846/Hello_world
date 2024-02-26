@@ -1,0 +1,21 @@
+GET https://postman-echo.com/get?message=Hello world
+
+###
+
+POST https://postman-echo.com/post
+content-type: application/json
+
+{
+    "message":"Hello world"
+}
+
+###
+
+PUT https://postman-echo.com/put?message=Hello world
+
+###
+
+PATCH https://postman-echo.com/patch?message=Hello world
+
+###
+DELETE https://postman-echo.com/delete?message=Hello world
